@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model= pickle.load(open('D:/PYTN_KampusMerdeka_FP3/PYTN_KampusMerdeka_FP3-main/rf.pkl','rb'))
+model= pickle.load(open('rf.pkl','rb'))
 
 def main():
     st.title('Prediksi Keslamatan Pasien Gagal Jantung')
