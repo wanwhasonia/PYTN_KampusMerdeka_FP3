@@ -3,7 +3,7 @@ streamlit
 seaborn
 pandas
 flask
-pickle
+pickle5
 scikit-learn
 matplotlib
 pickle
