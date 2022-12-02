@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request
 import pickle
+import streamlit as st
+import streamlit.components.v1 as stc
 
 app=Flask(__name__)
 model=pickle.load(open("rf.pkl", "rb"))
