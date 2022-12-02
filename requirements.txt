@@ -1,0 +1,10 @@
+numpy
+streamlit
+seaborn
+pandas
+flask
+pickle
+scikit-learn
+matplotlib
+pickle
+flask
