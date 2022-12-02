@@ -26,5 +26,5 @@ def main():
         output=makeprediction[0]
         st.success('Pasien Tidak Selamat/Meninggal')
 
-    if __name__=='__main__':
-        main()
+if __name__=='__main__':
+    main()
